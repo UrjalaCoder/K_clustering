@@ -6,4 +6,5 @@ Training data taken from here ["Clustering basic benchmark" by P. Fränti and S.
 ## Preview
 
 File "s4" with k=15
+
 ![Photo 1](https://raw.githubusercontent.com/UrjalaCoder/K_clustering/master/docs/preview1.png)
