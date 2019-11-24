@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 def load_data(line_count=50):
-    filepath = "a3.txt"
+    filepath = "s4.txt"
     full_path = os.path.join('./', filepath)
     data = []
     with open(full_path) as file:
@@ -131,7 +131,7 @@ def main():
     raw = load_data(line_count=7500)
     data = transform_to_vectors(raw)
     normal_data = normalize(data)
-    k = 50
+    k = 15
 
     # plt.scatter(normal_data.transpose()[0], normal_data.transpose()[1])
     # plt.show()
